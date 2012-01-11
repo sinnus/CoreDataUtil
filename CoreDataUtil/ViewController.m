@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import <CoreData/CoreData.h>
 
 @implementation ViewController
+
+@synthesize managedObjectContext;
 
 - (void)didReceiveMemoryWarning
 {

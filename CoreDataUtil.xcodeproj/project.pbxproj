@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C44E077614BE212500069A1B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E077514BE212500069A1B /* CoreData.framework */; };
 		C4A7A41414BE193900BA4011 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A7A41314BE193900BA4011 /* UIKit.framework */; };
 		C4A7A41614BE193900BA4011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A7A41514BE193900BA4011 /* Foundation.framework */; };
 		C4A7A41814BE193900BA4011 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A7A41714BE193900BA4011 /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C44E077514BE212500069A1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C4A7A40F14BE193900BA4011 /* CoreDataUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A7A41314BE193900BA4011 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4A7A41514BE193900BA4011 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44E077614BE212500069A1B /* CoreData.framework in Frameworks */,
 				C4A7A41414BE193900BA4011 /* UIKit.framework in Frameworks */,
 				C4A7A41614BE193900BA4011 /* Foundation.framework in Frameworks */,
 				C4A7A41814BE193900BA4011 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +53,7 @@
 		C4A7A40414BE193900BA4011 = {
 			isa = PBXGroup;
 			children = (
+				C44E077514BE212500069A1B /* CoreData.framework */,
 				C4A7A41914BE193900BA4011 /* CoreDataUtil */,
 				C4A7A41214BE193900BA4011 /* Frameworks */,
 				C4A7A41014BE193900BA4011 /* Products */,
@@ -276,6 +280,7 @@
 				C4A7A42F14BE193900BA4011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

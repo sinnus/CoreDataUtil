@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    @private
+    NSManagedObjectContext *managedObjectContext;
+}
+
+@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 
 @end
